@@ -29,4 +29,8 @@ console.log(`dropping database: "${nconf.get('databaseName')}"`);
  * but there is nothing in JavaScript that prevents us from
  * doing so, and there are some legitimate cases where you
  * may want to do this.
+ *
+ * This unfortunate situation is a consequence of the fact
+ * that we are depending on a global variable that we have
+ * no control over.
  */
