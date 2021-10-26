@@ -1,0 +1,4 @@
+{
+  "databaseName": "production",
+  "forbiddenURLChars": "#\\?\\s/:"
+}
